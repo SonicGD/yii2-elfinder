@@ -1,0 +1,33 @@
+{
+  "name": "sonicgd/yii2-elfinder",
+  "description": "ELFinder 2.1 for yii2",
+  "keywords": [
+    "elfinder",
+    "widget",
+    "yii2"
+  ],
+  "homepage": "https://github.com/sonicgd/yii2-elfinder",
+  "type": "project",
+  "license": "BSD-3-Clause",
+  "support": {
+    "issues": "https://github.com/sonicgd/yii2-elfinder/issues?state=open",
+    "source": "https://github.com/sonicgd/yii2-elfinder"
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "dev-master",
+    "yiisoft/yii2-jui": "*"
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "elfinder\\": ""
+    }
+  }
+}
