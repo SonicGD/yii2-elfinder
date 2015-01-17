@@ -6,7 +6,7 @@ use yii\web\AssetBundle;
 
 class ELFinderAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/sonicgd/elfinder/assets';
+    public $sourcePath = '@vendor/sonicgd/yii2-elfinder/assets';
     public $css = [
         'css/elfinder.min.css',
         'css/theme.css',
